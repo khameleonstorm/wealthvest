@@ -35,7 +35,7 @@ export default function Admin() {
       navigate('/dashboard')
     }
 
-    const chatDiv = document.getElementById('tidio-chat')
+    const chatDiv = document.getElementById('smartsupp-widget-container')
     if(chatDiv){
       // chatDiv.style.display = 'none';
     }

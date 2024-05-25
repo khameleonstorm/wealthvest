@@ -26,28 +26,23 @@
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="../src/assets/logo.svg" />
 
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    <!-- Smartsupp Live Chat script -->
+    <script type="text/javascript">
+      var _smartsupp = _smartsupp || {};
+      _smartsupp.key = 'f3b15bfc7ff7ce5035a446c62dd814239aaf6c5e';
+      window.smartsupp||(function(d) {
+        var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+        s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+        c.type='text/javascript';c.charset='utf-8';c.async=true;
+        c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+      })(document);
+    </script>
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel='canonical' href='%PUBLIC_URL%/' />
     <title>Invest in Stocks, Crypto & More at TrustSolid</title>
-    <!-- <script src="//code.tidio.co/ra6nwnbvamzyxmzpjedcvgrneh6itl2x.js" async></script> -->
-    <script src="//code.tidio.co/kdqlzyw8g5hd79bzl7etkipfiupokytn.js" async></script>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-      
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-        
-        To begin the development, run `npm start` or `yarn start`.
-        To create a production bundle, use `npm run build` or `yarn build`.
-      -->
-    </body>
+  </body>
 </html>
+
